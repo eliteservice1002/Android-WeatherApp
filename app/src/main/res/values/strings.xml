@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Basic Weather</string>
+    <string name="weather_tab">Current</string>
+    <string name="daily">Daily</string>
+    <string name="hourly_title">Hourly</string>
+    <string name="weather_map_tab">Radar</string>
+
+    <!-- weather strings !-->
+    <string name="device_initial_location">Fetching Location…</string>
+    <string name="initial_weather_description">Loading weather info…</string>
+    <string name="initial_weather_data">---</string>
+    <string name="weather_description">This is the weather symbol</string>
+    <string name="get_weather_text">Get Weather</string>
+    <string name="temperature">Current Temperature</string>
+    <string name="weather_url">http://api.openweathermap.org/data/2.5/weather</string>
+    <string name="api_key">b2ac896c4620ec4f02220685db31a56c</string>
+    <string name="humidity">Humidity:</string>
+    <string name="pressure">Bar:</string>
+    <string name="wind_speed">Wind Speed</string>
+    <string name="wind">Wind:</string>
+    <string name="min_temperature">Min Temperature</string>
+    <string name="max_temperature">Max Temperature</string>
+    <string name="MAPBOX_SDK_TOKEN">sk.eyJ1IjoibmVsc29uaG9vdmVyIiwiYSI6ImNqenE0b3hvbDBnZGszZ3FqMDVua2xyZngifQ.3FFWQGaNCwsv9WUHmsTThQ</string>
+    <string name="MAPBOX_SDK_TOKEN_SAMIR">pk.eyJ1IjoiY2oydnYwYXJ4MDB5bTMzbXN6a3l2cjA3aCIsImEiOiJjajJ2djBiYXcwMHlvMzNtc2h6eTU4MzU1In0.toaL478FN44FUQnjYCi4dQ</string>
+    <string name="clouds">Clouds</string>
+    <string name="precipitation">Precipitation</string>
+    <string name="sea_pressure">Sea Pressure</string>
+    <string name="temp">Temperature</string>
+    <string name="satellite">Satellite</string>
+
+    <string name="icon_for_daily_weather">Icon for daily weather</string>
+    <string name="icon_for_hourly_weather">Icon for hourly weather</string>
+    <string name="no_connection_message">No connection. Using data from last update.</string>
+    <string name="location_permission_not_granted">Access Fine Location permission is not granted. Closing app!</string>
+    <string name="last_known_location">Using last known location</string>
+    <string name="location_not_accessible">No location data available. Closing app!</string>
+    <string name="no_cache_data">There is no cache data. Closing app!</string>
+</resources>

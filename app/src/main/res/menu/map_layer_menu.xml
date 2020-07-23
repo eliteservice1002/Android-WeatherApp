@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_item_clouds"
+        android:title="@string/clouds"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu_item_precipitation"
+        android:title="@string/precipitation"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu_item_sea_pressure"
+        android:title="@string/sea_pressure"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_item_temp"
+        android:title="@string/temp"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu_item_wind_speed"
+        android:title="@string/wind_speed"
+        app:showAsAction="never" />
+    <!--
+        <item
+            android:id="@+id/menu_item_satellite"
+            android:title="@string/satellite"
+            app:showAsAction="never" />
+    -->
+</menu>

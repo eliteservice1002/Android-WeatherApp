@@ -1,0 +1,79 @@
+{
+	"version": 8,
+	"name":"local-style",
+    "minzoom": 0,
+    "maxzoom": 22,
+	"zoom": 4,
+	"sources": {
+		"simple-tiles":{  
+			"type":"raster",
+			"tiles":[  
+				"https://tile.openweathermap.org/map/pressure_new/{z}/{x}/{y}.png?appid=c0539a0992d76b0bc7ef49e95f269050"
+			],
+			"tileSize":256
+		},
+		"composite": {
+			"url": "mapbox://mapbox.mapbox-streets-v7,cj2vv0arx00ym33mszkyvr07h.5vlxd939,cj2vv0arx00ym33mszkyvr07h.df2f27gh",
+			"type": "vector"
+		}
+	},
+	"sprite": "mapbox://sprites/cj2vv0arx00ym33mszkyvr07h/cj34z7ptb00002sk6auo75t4a/ck2u8j60r58fu0sgyxrigm3cu",
+	"glyphs": "mapbox://fonts/cj2vv0arx00ym33mszkyvr07h/{fontstack}/{range}.pbf",
+    "layers": [
+		{
+			"id": "countries",
+			"type": "line",
+			"source": "composite",
+			"source-layer": "ne_10m_admin_0_countries-brwdom",
+			"minzoom": 2,
+			"layout": {},
+			"paint": {"line-color": "hsl(242, 75%, 44%)"}
+		},
+		{
+			"id": "boundary-line",
+			"type": "line",
+			"source": "composite",
+			"source-layer": "ne_110m_admin_0_boundary_line-9dvhnu",
+			"layout": {"visibility": "visible"},
+			"paint": {
+				"line-translate-anchor": "viewport",
+				"line-color": "hsl(244, 78%, 53%)"
+			}
+		},
+		{
+			"id": "country-label",
+			"type": "symbol",
+			"source": "composite",
+			"source-layer": "country_label",
+			"layout": {
+				"text-field": "{name}",
+				"text-justify": "left",
+				"text-font": ["Open Sans SemiBold", "Arial Unicode MS Regular"]
+			},
+			"paint": {"text-color": "hsl(244, 78%, 53%)", "text-opacity": 1}
+		},
+		{
+			"id": "admin",
+			"type": "line",
+			"source": "composite",
+			"source-layer": "admin",
+			"layout": {"visibility": "visible"},
+			"paint": {"line-color": "hsl(247, 72%, 52%)"}
+		},
+		{
+			"id": "place-label (1)",
+			"type": "symbol",
+			"source": "composite",
+			"source-layer": "place_label",
+			"layout": {"text-field": "{name}"},
+			"paint": {"text-color": "hsl(236, 68%, 37%)"}
+		},
+		{
+			"id": "simple-tiles",
+			"type": "raster",
+			"source": "simple-tiles",
+			"layout": {},
+			"raster-opacity": 0.4
+		}
+    ]
+}
