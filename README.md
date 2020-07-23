@@ -2,6 +2,11 @@
 
 This README would normally document whatever steps are necessary to get your application up and running.
 
+# App screen #
+![stack Overflow](https://github.com/Coding-Expert/Android-WeatherApp/blob/master/screen1.PNG)
+![stack Overflow](https://github.com/Coding-Expert/Android-WeatherApp/blob/master/screen2.PNG)
+![stack Overflow](https://github.com/Coding-Expert/Android-WeatherApp/blob/master/screen3.PNG)
+
 ### What is this repository for? ###
 
 Product Perspective
